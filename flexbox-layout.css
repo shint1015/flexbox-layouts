@@ -1,0 +1,32 @@
+main {
+    margin: 1rem;
+}
+.flex-main-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 1rem;
+    padding: 1rem;
+    background: #d9ead3;
+    margin: auto;
+}
+
+.component-common {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #ccc;
+    background-color: #d0e2f3;
+    padding: 5rem;
+    margin: 0.5rem 0;
+}
+
+.component-common p {
+    margin: auto;
+}
+.left-component, .right-component {
+    width: 49%;
+}
+.bottom-component {
+    width: 100%;
+}

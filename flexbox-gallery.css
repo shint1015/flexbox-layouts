@@ -1,0 +1,52 @@
+main {
+    margin: 1rem;
+    margin-bottom: 3rem;
+}
+.flex-main-area {
+    display: flex;
+    background: #d6e8d5;
+}
+.character-name-lists {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.character-name-lists {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid #aac3a3;
+    margin: 1rem;
+}
+.character-name-lists div {
+    background: #d9e8fb;
+    border: 1px solid #a0b5c2;
+    margin: 0.5rem 1.5rem;
+    padding: 0.25rem 2rem;
+    width: 100%;
+    margin: 1rem;
+}
+
+.character-image-lists {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 1rem;
+    border: 1px solid #aac3a3;
+    margin: 1rem;
+}
+
+.character-image-lists img {
+    width: 24%;
+    margin: 0.25rem;
+    height: auto;
+    object-fit: cover;
+}
+footer {
+    position: initial;
+}

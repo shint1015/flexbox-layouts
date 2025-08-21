@@ -1,21 +1,10 @@
+
 main {
-    font-size: 0px;
-    margin: 1rem;
-    padding: 0.5rem;
-    border: 1px solid #343434;
-    background-color: #eee;
-    
+    height: 500px;
 }
-
-.main-content {
-    margin: 0.5rem;
-    padding: 1rem;
-    border: 1px solid #343434;
+main h1 {
+    text-align: center;
 }
-.main-content p {
-    font-size: 18px;
-}
-
 /* sidebar */
 .sidebar-area {
     text-align: center;
@@ -48,8 +37,8 @@ main {
 }
 
 .paragraph_img_container {
-    float: right;
-    margin-left: 3rem;
+    float: left;
+    margin-right: 3rem;
 }
 
 img.paragraph_img {
